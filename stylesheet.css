@@ -1,0 +1,123 @@
+/* Custom color scheme with #B83A4B accent */
+
+/* TeXGyrePagella / Palatino Serif Font Stack */
+@font-face {
+  font-family: 'TeXGyrePagella';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TeX Gyre Pagella'), local('TeXGyrePagella-Regular'), local('Palatino Linotype'), local('Book Antiqua'), local('Palatino');
+}
+
+@font-face {
+  font-family: 'TeXGyrePagella';
+  font-style: normal;
+  font-weight: 700;
+  src: local('TeX Gyre Pagella Bold'), local('TeXGyrePagella-Bold'), local('Palatino Linotype Bold'), local('Book Antiqua Bold'), local('Palatino Bold');
+}
+
+@font-face {
+  font-family: 'TeXGyrePagella';
+  font-style: italic;
+  font-weight: 400;
+  src: local('TeX Gyre Pagella Italic'), local('TeXGyrePagella-Italic'), local('Palatino Linotype Italic'), local('Book Antiqua Italic'), local('Palatino Italic');
+}
+
+a {
+  color: #066890;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #B83A4B;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'TeXGyrePagella', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 15px;
+}
+
+strong {
+  font-family: 'TeXGyrePagella', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 15px;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-family: 'TeXGyrePagella', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 22px;
+  color: #B83A4B;
+}
+
+heading {
+  font-family: 'TeXGyrePagella', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 22px;
+  color: #B83A4B;
+}
+
+heading2 {
+  font-family: 'TeXGyrePagella', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 18px;
+}
+
+.papertitle {
+  font-family: 'TeXGyrePagella', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #066890;
+}
+
+.name {
+  padding-top: 20px;
+  margin: 0;
+  font-family: 'TeXGyrePagella', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 42px;
+}
+
+name {
+  font-family: 'TeXGyrePagella', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 42px;
+}
+
+li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+.colored-box {
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
