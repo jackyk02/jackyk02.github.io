@@ -120,4 +120,6 @@ span.highlight {
     padding: 20px;
     display: inline-block;
     border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
